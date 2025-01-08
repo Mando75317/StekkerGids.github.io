@@ -1,0 +1,514 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+/* Navbalk */
+nav img {
+    max-width: 80px;
+}
+
+nav {
+    background-color: #cadbe7;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    z-index: 1;
+}
+
+.navList {
+    display: inline-flex;
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.navList li a.currentPage {
+    background-color: #0b93f2;
+}
+
+.navList li a.bttn {
+    background-color: #f05d23;
+}
+
+.navList li a.bttn:hover {
+    background-color: #eb7445;
+}
+
+.navList li a {
+    padding: 1.5rem;
+
+    border-radius: 8px;
+    background-color: #7ac2f4;
+    text-decoration: none;
+    color: black;
+}
+
+.navList li a:not(.bttn):hover {
+    background-color: #5094c5;
+}
+
+/* Header */
+header img {
+    width: 100%;
+    filter: blur(4px);
+}
+
+body header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7rem;
+    margin-bottom: 1rem;
+
+    border-bottom: solid 8px #cadbe7;
+}
+
+body header h1 {
+    position: absolute;
+}
+
+body header h2 {
+    position: absolute;
+    padding-top: 5rem;
+}
+
+body header h2::first-letter {
+    text-transform: uppercase;
+}
+
+/* Main page contend */
+main {
+    padding: 1rem;
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+main .sectionBackgroundColor {
+    background-color: #4db2f9;
+    border-radius: 20px;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+
+    max-width: 80%;
+    left: 10%;
+    position: relative;
+}
+
+main .sectionBackgroundColor aside img {
+    max-width: 95%;
+    border-radius: 10px;
+    border: solid 4px #cadbe7;
+}
+
+main section.sectionBackgroundColor article {
+    border-radius: 12px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-self: start;
+}
+
+/* Main stekker */
+.stekkerSectionGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+
+    max-width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.stekkerSectionGrid.X4 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 70%;
+    left: 15%;
+}
+
+
+.stekkerSectionGrid.X4 article {
+    display: block;
+    flex-flow: column;
+    align-items: center;
+    background-color: #7AC2F4;
+}
+
+
+
+.stekkerSectionGrid article {
+    display: flex;
+    gap: 1rem;
+    aspect-ratio: 1;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    border: solid 6px #264653;
+}
+
+.stekkerSectionGrid article aside {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+
+section.information img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+.information h3 {
+    padding-bottom: 1rem;
+}
+
+img.imgContact {
+    max-width: 65%;
+    border: 3px solid #7ac2f4;
+}
+
+.information p {
+    padding-bottom: 1rem;
+}
+
+.contactMainFrame {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 5%;
+
+}
+
+form ul {
+    list-style-type: none;
+}
+
+form input,
+select {
+    padding: 9px 12px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+#legend {
+    display: none;
+}
+
+form {
+    padding: 2rem;
+    letter-spacing: 0px;
+    background-color: #7AC2F4;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.information {
+    padding: 1rem;
+    background-color: #7AC2F4;
+    border-radius: 8px;
+}
+
+form label {
+    display: block;
+    padding-bottom: 5px;
+}
+
+#verstuur {
+    background-color: #f05d23;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+form textarea {
+    resize: none;
+    width: 100%;
+    padding: 9px 12px;
+    border-radius: 8px;
+}
+
+.bttn {
+    padding: 6px 12px;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 8px;
+    background-color: #f05d23;
+    border: 4px solid #264653;
+    color: black;
+    width: max-content;
+}
+
+.bttn:hover {
+    background-color: #eb7445;
+
+}
+
+.reverse .bttn {
+    display: block;
+    margin-top: 5px;
+    width: max-content;
+}
+
+
+.stekkerSectionGrid article img {
+    width: 40%;
+    border: 4px solid #cadbe7;
+}
+
+.reverse img {
+    float: right;
+}
+
+main section.sectionBackgroundColor.reverse article {
+    display: block;
+}
+
+main section.reverse h3 {
+    padding-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    padding: 1rem;
+    background-color: #cadbe7;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+/* Media */
+
+@media screen and (max-width: 1230px) {
+
+    .stekkerSectionGrid {
+        max-width: 100%;
+        left: 0%;
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 1111px) {
+
+
+    .bttn {
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .stekkerSectionGrid article {
+        padding-right: 5px;
+    }
+
+}
+
+@media screen and (max-width: 1022px) {
+
+    .stekkerSectionGrid article p {
+        margin-top: 1rem;
+    }
+
+    .bttn:not(.bttn.special) {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .stekkerSectionGrid article img {
+        height: max-content;
+    }
+
+    .stekkerSectionGrid article {
+        display: block;
+    }
+
+    .stekkerSectionGrid article p {
+        display: flex;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .stekkerSectionGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer section p {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .stekkerSectionGrid article {
+        display: flex;
+        text-align: center;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .stekkerSectionGrid span,
+    .stekkerSectionGrid p:last-child {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 5px;
+    }
+
+    .stekkerSectionGrid article img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .stekkerSectionGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer img:nth-child(3) {
+        display: none;
+    }
+
+    footer {
+        text-align: center;
+        display: block;
+    }
+    main .sectionBackgroundColor {
+        max-width: 90%;
+        left: 5%;
+    }
+    main section.sectionBackgroundColor article {
+        display: block;    
+    }
+    body>nav>img {
+        max-width: 35px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .stekkerSectionGrid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    main .sectionBackgroundColor {
+        display: block;
+    }
+
+    .reverse img {
+        float: unset;
+        margin-top: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .stekkerSectionGrid {
+        display: block;
+        max-width: 80%;
+        left: 10%;
+
+    }
+    body>header {
+        margin-top: 0;
+    }
+
+    .stekkerSectionGrid article {
+        margin-bottom: 1rem;
+    }
+
+    footer img {
+        max-width: 50px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 950px) {
+
+    .navList {
+        display: none
+    }
+
+    label[for="openCloseMobileMenu"] {
+        cursor: pointer;
+        z-index: 100000;
+        position: relative;
+        right: 1rem;
+    }
+
+    label[for="openCloseMobileMenu"] span {
+        height: 5px;
+        width: 40px;
+        background-color: #f05d23;
+        margin-bottom: 5px;
+        display: block;
+        position: relative;
+    }
+    
+    #openCloseMobileMenu:not(:checked)~label {
+        position: relative;
+    }
+    
+    #openCloseMobileMenu:checked~label {
+        position: fixed;
+        right: 2rem;
+    }
+    
+    #openCloseMobileMenu:checked~.navList {
+        display: flex;
+        gap: 1rem;
+        flex-flow: column;
+        position: fixed;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        z-index: 2000;
+        background-color: #CADBE7;
+        border-left: 2px solid #f05d23;
+        padding: 1rem;
+        padding-top: 7rem;
+    }
+    
+
+    .navList li {
+        position: relative;
+    }
+
+    .navList li a {
+        width: 100%;
+        position: relative;
+        display: block;
+        text-align: center;
+    }
+    nav img {
+        max-width: 50px;
+    }
+
+}
