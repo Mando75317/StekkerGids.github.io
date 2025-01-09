@@ -116,6 +116,15 @@ main .sectionBackgroundColor aside img {
     border: solid 4px #cadbe7;
 }
 
+main .sectionBackgroundColor figure img {
+    max-width: 95%;
+    border-radius: 10px;
+    border: solid 4px #cadbe7;
+}
+main .sectionBackgroundColor figure figcaption {
+    display: none;
+}
+
 main section.sectionBackgroundColor article {
     border-radius: 12px;
 
@@ -154,7 +163,7 @@ main section.sectionBackgroundColor article {
 .stekkerSectionGrid article {
     display: flex;
     gap: 1rem;
-    aspect-ratio: 1;
+    /* aspect-ratio: 1; */
     padding: 1rem;
     background-color: #f2f2f2;
     border-radius: 8px;
