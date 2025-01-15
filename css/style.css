@@ -50,6 +50,7 @@ nav {
 
 .navList li a {
     padding: 1.5rem;
+    font-family: "Fredoka", sans-serif;
 
     border-radius: 8px;
     background-color: #7ac2f4;
@@ -74,6 +75,7 @@ body header {
     margin-top: -7rem;
     margin-bottom: 1rem;
 
+    font-family: "Rowdies", sans-serif;
     border-bottom: solid 8px #cadbe7;
 }
 
@@ -136,6 +138,15 @@ main section.sectionBackgroundColor article {
     grid-template-rows: 1fr 1fr 1fr;
     align-self: start;
 }
+main section.sectionBackgroundColor article p
+{
+    font-family: "Fredoka", sans-serif;
+}
+main section.sectionBackgroundColor article h3
+{
+    font-family: "Rowdies", sans-serif;
+}
+
 
 /* Main stekker */
 .stekkerSectionGrid {
@@ -146,6 +157,18 @@ main section.sectionBackgroundColor article {
     max-width: 90%;
     position: relative;
     left: 5%;
+}
+.stekkerSectionGrid h3 
+{
+    font-family: "Rowdies", sans-serif;
+}
+.stekkerSectionGrid p
+{
+    font-family: "Fredoka", sans-serif;
+}
+.stekkerSectionGrid p a
+{
+    font-family: "Fredoka", sans-serif;
 }
 
 .stekkerSectionGrid.X4 {
@@ -187,6 +210,16 @@ section.information img {
 
 .information h3 {
     padding-bottom: 1rem;
+    font-family: "Rowdies", sans-serif;
+}
+
+footer section p
+{
+    font-family: "Fredoka", sans-serif;
+}
+footer p
+{
+    font-family: "Fredoka", sans-serif;
 }
 
 img.imgContact {
@@ -196,6 +229,7 @@ img.imgContact {
 
 .information p {
     padding-bottom: 1rem;
+    font-family: "Fredoka", sans-serif;
 }
 
 .contactMainFrame {
@@ -228,7 +262,17 @@ form {
     background-color: #7AC2F4;
     border-radius: 8px;
     margin-bottom: 2rem;
+    font-family: "Fredoka", sans-serif;
 }
+form fieldset ul li select option
+{
+    font-family: "Fredoka", sans-serif;
+}
+form fieldset input
+{
+    font-family: "Fredoka", sans-serif; 
+}
+
 
 .information {
     padding: 1rem;
@@ -245,6 +289,7 @@ form label {
     background-color: #f05d23;
     width: 100%;
     margin-top: 1rem;
+    font-family: "Fredoka", sans-serif;
 }
 
 form textarea {
