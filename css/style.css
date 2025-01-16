@@ -9,16 +9,19 @@
     border: 0;
 }
 
-body {
+body 
+{
     background-color: #e5e5e5;
 }
 
 /* Navbalk */
-nav img {
+nav img 
+{
     max-width: 80px;
 }
 
-nav {
+nav 
+{
     background-color: #cadbe7;
     padding: 1rem;
 
@@ -30,25 +33,30 @@ nav {
     z-index: 1;
 }
 
-.navList {
+.navList 
+{
     display: inline-flex;
     list-style-type: none;
     gap: 1rem;
 }
 
-.navList li a.currentPage {
+.navList li a.currentPage 
+{
     background-color: #0b93f2;
 }
 
-.navList li a.bttn {
+.navList li a.bttn 
+{
     background-color: #f05d23;
 }
 
-.navList li a.bttn:hover {
+.navList li a.bttn:hover 
+{
     background-color: #eb7445;
 }
 
-.navList li a {
+.navList li a 
+{
     padding: 1.5rem;
     font-family: "Fredoka", sans-serif;
 
@@ -58,7 +66,8 @@ nav {
     color: black;
 }
 
-.navList li a:not(.bttn):hover {
+.navList li a:not(.bttn):hover 
+{
     background-color: #5094c5;
 }
 
@@ -165,6 +174,7 @@ main section.sectionBackgroundColor article h3
 .stekkerSectionGrid p
 {
     font-family: "Fredoka", sans-serif;
+    word-spacing: normal;
 }
 .stekkerSectionGrid p a
 {
@@ -194,7 +204,10 @@ main section.sectionBackgroundColor article h3
     padding: 1rem;
     background-color: #f2f2f2;
     border-radius: 8px;
-    border: solid 6px #264653;
+    border-style: double;
+    border: solid;
+    border-width: 6px;
+    border-color: #264653;
 }
 
 .stekkerSectionGrid article aside {
@@ -216,6 +229,7 @@ section.information img {
 footer section p
 {
     font-family: "Fredoka", sans-serif;
+    text-indent: 0em;
 }
 footer p
 {
@@ -229,6 +243,7 @@ img.imgContact {
 
 .information p {
     padding-bottom: 1rem;
+    line-height: normal;
     font-family: "Fredoka", sans-serif;
 }
 
@@ -256,7 +271,8 @@ select {
     display: none;
 }
 
-form {
+form 
+{
     padding: 2rem;
     letter-spacing: 0px;
     background-color: #7AC2F4;
