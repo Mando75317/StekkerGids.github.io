@@ -92,29 +92,35 @@ body header {
     border-bottom: solid 8px #cadbe7;
 }
 
-body header h1 {
+body header h1 
+{
     position: absolute;
 }
 
-body header h2 {
+body header h2 
+{
     position: absolute;
     padding-top: 5rem;
 }
 
-body header h2::first-letter {
+body header h2::first-letter 
+{
     text-transform: uppercase;
 }
 
 /* Main page contend */
-main {
+main 
+{
     padding: 1rem;
 }
 
-main section {
+main section 
+{
     margin-bottom: 2rem;
 }
 
-main .sectionBackgroundColor {
+main .sectionBackgroundColor 
+{
     background-color: #4db2f9;
     border-radius: 20px;
     padding: 2rem;
@@ -129,22 +135,26 @@ main .sectionBackgroundColor {
     position: relative;
 }
 
-main .sectionBackgroundColor aside img {
+main .sectionBackgroundColor aside img 
+{
     max-width: 95%;
     border-radius: 10px;
     border: solid 4px #cadbe7;
 }
 
-main .sectionBackgroundColor figure img {
+main .sectionBackgroundColor figure img 
+{
     max-width: 95%;
     border-radius: 10px;
     border: solid 4px #cadbe7;
 }
-main .sectionBackgroundColor figure figcaption {
+main .sectionBackgroundColor figure figcaption 
+{
     display: none;
 }
 
-main section.sectionBackgroundColor article {
+main section.sectionBackgroundColor article 
+{
     border-radius: 12px;
 
     display: grid;
@@ -170,7 +180,8 @@ main section .hide
 
 
 /* Main stekker */
-.stekkerSectionGrid {
+.stekkerSectionGrid 
+{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
@@ -193,14 +204,16 @@ main section .hide
     font-family: "Fredoka", sans-serif;
 }
 
-.stekkerSectionGrid.X4 {
+.stekkerSectionGrid.X4 
+{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     max-width: 70%;
     left: 15%;
 }
 
 
-.stekkerSectionGrid.X4 article {
+.stekkerSectionGrid.X4 article 
+{
     display: block;
     flex-flow: column;
     align-items: center;
@@ -209,7 +222,8 @@ main section .hide
 
 
 
-.stekkerSectionGrid article {
+.stekkerSectionGrid article 
+{
     display: flex;
     gap: 1rem;
     /* aspect-ratio: 1; */
@@ -222,18 +236,21 @@ main section .hide
     border-color: #264653;
 }
 
-.stekkerSectionGrid article aside {
+.stekkerSectionGrid article aside 
+{
     display: flex;
     justify-content: space-between;
     flex-flow: column;
 }
 
-section.information img {
+section.information img 
+{
     max-width: 100%;
     margin-bottom: 1rem;
 }
 
-.information h3 {
+.information h3 
+{
     padding-bottom: 1rem;
     font-family: "Rowdies", sans-serif;
 }
@@ -248,18 +265,21 @@ footer p
     font-family: "Fredoka", sans-serif;
 }
 
-img.imgContact {
+img.imgContact 
+{
     max-width: 65%;
     border: 3px solid #7ac2f4;
 }
 
-.information p {
+.information p 
+{
     padding-bottom: 1rem;
     line-height: normal;
     font-family: "Fredoka", sans-serif;
 }
 
-.contactMainFrame {
+.contactMainFrame 
+{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -267,19 +287,22 @@ img.imgContact {
 
 }
 
-form ul {
+form ul 
+{
     list-style-type: none;
 }
 
 form input,
-select {
+select 
+{
     padding: 9px 12px;
     border-radius: 8px;
     margin-bottom: 1rem;
     width: 100%;
 }
 
-#legend {
+#legend 
+{
     display: none;
 }
 
@@ -306,25 +329,29 @@ form fieldset input
 }
 
 
-.information {
+.information 
+{
     padding: 1rem;
     background-color: #7AC2F4;
     border-radius: 8px;
 }
 
-form label {
+form label 
+{
     display: block;
     padding-bottom: 5px;
 }
 
-#verstuur {
+#verstuur 
+{
     background-color: #f05d23;
     width: 100%;
     margin-top: 1rem;
     font-family: "Fredoka", sans-serif;
 }
 
-form textarea {
+form textarea 
+{
     resize: none;
     width: 100%;
     padding: 9px 12px;
