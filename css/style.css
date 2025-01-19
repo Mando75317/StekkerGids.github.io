@@ -144,7 +144,7 @@ main section.sectionBackgroundColor article {
     border-radius: 12px;
 
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     align-self: start;
 }
 main section.sectionBackgroundColor article p
@@ -389,6 +389,13 @@ footer {
         padding-right: 5px;
     }
 
+    .stekkerSectionGrid.X4
+    {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 70%;
+        left: 15%;
+    }
+
 }
 
 @media screen and (max-width: 1022px) {
@@ -482,7 +489,7 @@ footer {
 
 @media screen and (max-width: 500px) {
     .stekkerSectionGrid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
 }
@@ -496,6 +503,13 @@ footer {
     .reverse img {
         float: unset;
         margin-top: 1rem;
+    }
+
+    .stekkerSectionGrid.X4
+    {
+        grid-template-columns: 1fr 1fr;
+        max-width: 70%;
+        left: 15%;
     }
 
 }
@@ -524,7 +538,7 @@ footer {
 
 
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
 
     .navList {
         display: none
