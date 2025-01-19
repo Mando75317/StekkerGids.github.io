@@ -358,7 +358,8 @@ form textarea
     border-radius: 8px;
 }
 
-.bttn {
+.bttn 
+{
     padding: 6px 12px;
     text-decoration: none;
     margin-right: 5px;
@@ -369,32 +370,38 @@ form textarea
     width: max-content;
 }
 
-.bttn:hover {
+.bttn:hover 
+{
     background-color: #eb7445;
 
 }
 
-.reverse .bttn {
+.reverse .bttn 
+{
     display: block;
     margin-top: 5px;
     width: max-content;
 }
 
 
-.stekkerSectionGrid article img {
+.stekkerSectionGrid article img 
+{
     width: 40%;
     border: 4px solid #cadbe7;
 }
 
-.reverse img {
+.reverse img 
+{
     float: right;
 }
 
-main section.sectionBackgroundColor.reverse article {
+main section.sectionBackgroundColor.reverse article 
+{
     display: block;
 }
 
-main section.reverse h3 {
+main section.reverse h3 
+{
     padding-bottom: 1rem;
 }
 
