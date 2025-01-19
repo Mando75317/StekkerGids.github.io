@@ -163,6 +163,10 @@ main section.sectionBackgroundColor article h3
 {
     display: none;
 }
+main section .hide
+{
+    display: none;
+}
 
 
 /* Main stekker */
