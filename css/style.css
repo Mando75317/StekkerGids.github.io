@@ -54,6 +54,10 @@ nav
 {
     background-color: #eb7445;
 }
+.navList li a.bttn:visited
+{
+    background-color: #f05d23;
+}
 
 .navList li a 
 {
@@ -280,6 +284,10 @@ form
     margin-bottom: 2rem;
     font-family: "Fredoka", sans-serif;
 }
+form fieldset textarea
+{
+    font-family: "Fredoka", sans-serif;
+}
 form fieldset ul li select option
 {
     font-family: "Fredoka", sans-serif;
@@ -353,6 +361,19 @@ main section.sectionBackgroundColor.reverse article {
 
 main section.reverse h3 {
     padding-bottom: 1rem;
+}
+/* Tabel */
+tr:nth-child(even)
+{
+    background-color: #CFF;
+}
+#Table table tr:nth-child(odd)
+{
+    background-color: #FFF;
+}
+#Table
+{
+    display: none;
 }
 
 /* Footer */
@@ -484,6 +505,16 @@ footer {
     }
     body>nav>img {
         max-width: 35px;
+    }
+
+    img.imgContact
+    {
+        display: none;
+    }
+
+    .contactMainFrame
+    {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
