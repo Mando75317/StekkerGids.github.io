@@ -362,6 +362,7 @@ main section.sectionBackgroundColor.reverse article {
 main section.reverse h3 {
     padding-bottom: 1rem;
 }
+
 /* Tabel */
 tr:nth-child(even)
 {
@@ -375,6 +376,38 @@ tr:nth-child(even)
 {
     display: none;
 }
+
+/* Cookie melding */
+#cookieMessage
+{
+    position: relative;
+    max-width: 100%;
+    padding: 5px;
+    border: #f05d23 solid 5px;
+    background-color: #CADBE7;
+    font-family: "Fredoka", sans-serif;
+    z-index: 9999;
+
+    display: flex;
+    justify-content: space-between;
+}
+#cookieMessage label
+{
+    align-content: center;
+}
+
+#cookieMessage input
+{
+    display: none;
+}
+
+/* has() uitleg hieronder */
+/* The pseudo-class allows you to select a parent element based on whether it contains a specific child element that matches the condition*/
+#cookieMessage:has(input:checked) 
+{
+    display: none;
+}
+
 
 /* Footer */
 footer {
